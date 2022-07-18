@@ -1,0 +1,103 @@
+*{ /* select tất cả phần tử trong html*/
+  margin: 0;/*reset margin mặc định của các thẻ html về 0*/
+  padding: 0; /*reset padding mặc định của các thẻ html về 0*/
+  box-sizing: border-box;/*cố định lại các phần tử html để k cộng thêm border hay padding vào*/
+  font-family: BeaufortforLOL-Bold; /*thêm font chữ cho website*/
+}
+.container
+{ 
+  width: 1440px; 
+  margin: auto; 
+}
+.logo{ 
+  text-align: center; 
+  padding: 32px 0;
+}
+ul{ 
+  text-align: center; 
+}
+li{ 
+  display: inline;
+  margin: 0 16px;
+}
+li a:hover{
+  color:#DDDDDD;
+  background-color:	#99CC00;
+}
+li a{
+  text-decoration: none; 
+  color: #000000;
+  font-size: 25px; 
+}
+.discover-champion{ 
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 32px;
+}
+.discover-champion-content{ 
+  margin: auto 0; 
+}
+.discover-champion-content h2{ 
+  font-size: 48px; 
+}
+.discover-champion-content p{
+  font-size: 20px;
+  line-height: 30px; 
+  margin-top: 32px;
+  margin-bottom: 16px; 
+}
+.btn-more{
+  background-color: #0E4C67; 
+  color: #ffffff; 
+  font-size: 20px;
+  width: 328px;
+  height: 57px;
+  border: none;
+}
+.favourite-title h2{
+  font-size: 48px;
+  text-align: center;
+  padding: 64px 0;
+}
+.favourite-content{
+  display: grid;/* quy định kiểu hiển thị của khối là dạng lưới*/
+  grid-template-columns: 1fr 1fr 1fr; /* quy định trong lưới có 2 cột, mỗi thông số 1fr là 1 cột*/
+  grid-gap: 32px;/* khoảng cách giữa các cột*/
+  padding: 0 16px;
+}
+.footer{
+  margin-top: 64px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  background-color: #0E4C67;
+  height: 100px;
+  padding: 0 16px;
+}
+.text1{
+  margin: auto 0;
+}
+.text1 span{
+  color: #ffffff;
+  font-size: 20px;
+}
+.ft2{
+  text-align: right;
+  margin: auto 0;
+}
+.email{
+  width: 280px;
+  height: 52px;
+  border: 2px solid #FFA800;
+  border-radius: 5px;
+  background-color: transparent;
+  padding-left: 20px;
+}
+.submit{
+  width: 120px; 
+  height: 52px; 
+  background-color: #FFA800; 
+  border: none; 
+  border-radius: 5px;
+  color: #ffffff; 
+  margin-left: 24px;
+}

@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+    margin: 0;
+    font-family: BeaufortforLOL-Bold;
+}
+.container {
+    width: 1400px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    background-color: #E5E5E5;
+}
+.logo img {
+    margin-left: 150px;
+    margin-top: 15px;
+    width: 550px;
+    height: 670px;
+}
+.bodys {
+    margin: auto;
+}
+.bodys .dau {
+    font-size: 20px;
+}
+.bodys .dau-duoi {
+    font-size: 40px;
+}
+label {
+    display: block;
+}
+.logic {
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+.logic a {
+    padding-left:  50px;
+}
+.button a{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+button {
+    display: block;
+}
+.input1 input{
+    width: 300px;
+    height: 30px;
+    border: 2px solid #37A9CD;
+    border-radius: 5px;
+}
+.input2 input{
+    width: 300px;
+    height: 30px;
+    border: 2px solid #37A9CD;
+    border-radius: 5px;
+}
+.button .a{
+    width: 305px;
+    height: 40px;
+    border:2px solid #37A9CD;
+    background-color: #37A9CD;
+    border-radius: 5px;
+    display: inline;
+    display: block;
+    text-decoration: none;
+}
+.button img{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.button .b{
+    margin-top: 10px;
+    width: 305px;
+    height: 40px;
+    color: #E5E5E5;
+    background-color: #2D3748;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+.footer{
+    margin-top: 20px;
+}

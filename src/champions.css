@@ -1,0 +1,106 @@
+*{
+    margin: 0;/*reset margin mặc định của các thẻ html về 0*/
+  padding: 0; /*reset padding mặc định của các thẻ html về 0*/
+  box-sizing: border-box;/*cố định lại các phần tử html để k cộng thêm border hay padding vào*/
+  font-family: BeaufortforLOL-Bold; /*thêm font chữ cho website*/
+} 
+.container
+{ 
+  width: 1440px; 
+  margin: auto; 
+  background-color: #E5E5E5;;
+  overflow: hidden;
+}
+.banner img{
+width: 100%;
+height: auto;
+}
+.logo img{
+width: 240px;
+height: 105,8px;
+}
+.logo{ 
+  text-align: center; 
+  padding: 32px 0;
+}
+ul{ 
+    text-align: center; 
+  }
+  li{ 
+    display: inline;
+    margin: 0 16px;
+  }
+  li a:hover{
+color:#DDDDDD;
+    background-color:	#99CC00;
+  }
+  li a{
+    text-decoration: none; 
+    color: #000000;
+    font-size: 25px; 
+  
+  }
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .cham .cham-a {
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+.cham-a .anh img {
+    width: 270px;
+    height: 360px;
+}
+ .cham .cham-a .nut button {
+    width: 270px;
+    height: 60px;
+    background-color: #0E4C67;
+    color: #FFFFFF;
+    margin-top: -4px;
+    border-radius: 1px solid #0E4C67;   
+}
+.intro-video {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+  .footer{
+    margin-top: 64px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr ;
+    background-color: #0E4C67;
+    height: 100px;
+    padding: 0 16px;
+  }
+  .text1{
+    margin: auto 0;
+  }
+  .text1 span{
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .ft2{
+    text-align: right;
+    margin: auto 0;
+  }
+  .email{
+    width: 280px;
+    height: 52px;
+    border: 2px solid #FFA800;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 20px;
+  }
+  .submit{
+    width: 120px; 
+    height: 52px; 
+    background-color: #FFA800; 
+    border: none; 
+    border-radius: 5px;
+    color: #ffffff; 
+    margin-left: 24px;
+  }
+  
